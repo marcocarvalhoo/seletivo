@@ -1,2 +1,81 @@
 # seletivo
 teste de processo seletivo
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo Seletivo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="dev7logo.png" alt="Seletivo">
+
+        <nav>
+            <ul class="menu"></ul>
+            <a href="#inicio">Home</a>
+            <a href="#empresa">Empresa</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#contatos">Contatos</a>
+
+        </nav> <!--navegação-->
+    </header>
+        <ul class="slider"> <!--Slider de imagens-->
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="nemo.jpg" alt="nemo">
+            </li>
+            <li>
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+                <img src="toystory.jpg" alt="toy">
+            </li>
+            <li>
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+                <img src="walle.jpg" alt="wal">
+            </li>
+
+        </ul>
+        <div class="container">
+            <div class="texto">
+                <h2>TESTE HTML E CSS</h2>
+                <p>Quesitos de avaliação:</p>
+                <ul>
+                <li>Organização do código(quanto mais limpo melhor);</li>
+                <li>Nível de detalhismo(quanto mais identico melhor);</li>
+                <li>Tempo de desenvolvimento(seja sincero ao enviar o tempo gasto);</li>
+                </ul>
+                <p>Obrigado e soa sorte!</p>
+            </div>
+            <div class="imagem3">
+            <img src="up.jpg" alt="up">
+            </div>
+        </div>
+
+        <div class="txt">
+            <h2>BOXES DE DESTAQUE</h2>
+        </div>
+        <div class="imagens4">
+            <img src="walle.jpg" alt="">
+            <img src="toystory.jpg" alt="">
+            <img src="up.jpg" alt="">
+            <img src="nemo.jpg" alt="">
+
+        </div>
+
+        <footer class="rodape">
+          <div>
+                <nav>
+                <a href="#inicio">Home</a>
+                <a href="#empresa">Empresa</a>
+                <a href="#clientes">Clientes</a>
+                <a href="#contatos">Contatos</a>
+                </nav>
+          </div>
+        </footer>
+        
+</body>
+</html>
